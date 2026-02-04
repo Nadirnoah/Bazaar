@@ -1,0 +1,9 @@
+{
+  "module": "rwa_minting",
+  "token_ticker": "BAZ",
+  "minting_rules": {
+    "requires_collateral_proof": true,
+    "max_supply_cap": 1000000000,
+    "auth_roles": ["Asset_Manager", "Compliance_Officer"]
+  }
+}
