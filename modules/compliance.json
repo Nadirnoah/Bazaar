@@ -1,0 +1,5 @@
+{
+  "module": "compliance",
+  "status": "active",
+  "rules": ["whitelist_only"]
+}
