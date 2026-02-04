@@ -1,1 +1,18 @@
+# Bazaar RWA Blockchain Configuration
+name: Bazaar
+ticker: BAZ
+version: "0.1.0"
+type: "sub-chain" # This tells Canopy it's currently a Nested Chain
 
+consensus:
+  engine: "NestBFT"
+  block_time: "2s" # Fast blocks for RWA trading
+
+governance:
+  type: "permissioned" # Vital for RWA compliance
+  allow_list_enabled: true
+
+economics:
+  initial_supply: 1000000000
+  staking_enabled: true
+  fee_token: "BAZ"
